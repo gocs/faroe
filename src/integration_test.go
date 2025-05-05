@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gocs/faroe/src/otp"
+	"github.com/gocs/faroe/otp"
 
 	"github.com/stretchr/testify/assert"
 )

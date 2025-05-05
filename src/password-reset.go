@@ -5,12 +5,13 @@ import (
 	"database/sql"
 	"encoding/json"
 	"errors"
-	"github.com/gocs/faroe/src/argon2id"
 	"fmt"
 	"io"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/gocs/faroe/argon2id"
 
 	"github.com/julienschmidt/httprouter"
 )

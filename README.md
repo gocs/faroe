@@ -55,6 +55,14 @@ Faroe is written in Go and uses SQLite as its database.
 
 Licensed under the MIT license.
 
+## Install
+
+```
+go get -tool github.com/gocs/faroe/src
+```
+
+usage: `go tool src`
+
 ## Features
 
 - Email login, email verification, 2FA with TOTP, 2FA recovery, and password reset

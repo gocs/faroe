@@ -6,12 +6,13 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"errors"
-	"github.com/gocs/faroe/src/otp"
 	"fmt"
 	"io"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/gocs/faroe/otp"
 
 	"github.com/julienschmidt/httprouter"
 )

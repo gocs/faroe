@@ -18,7 +18,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gocs/faroe/src/argon2id"
+	"github.com/gocs/faroe/argon2id"
 
 	"github.com/julienschmidt/httprouter"
 )
