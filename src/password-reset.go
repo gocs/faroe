@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"encoding/json"
 	"errors"
-	"faroe/argon2id"
+	"github.com/gocs/faroe/src/argon2id"
 	"fmt"
 	"io"
 	"log"

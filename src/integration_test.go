@@ -5,7 +5,6 @@ import (
 	"crypto/rand"
 	"encoding/base64"
 	"encoding/json"
-	"faroe/otp"
 	"fmt"
 	"io"
 	"net/http"
@@ -15,6 +14,8 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/gocs/faroe/src/otp"
 
 	"github.com/stretchr/testify/assert"
 )

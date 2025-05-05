@@ -2,7 +2,7 @@ package main
 
 import (
 	"database/sql"
-	"faroe/ratelimit"
+	"github.com/gocs/faroe/src/ratelimit"
 	"testing"
 	"time"
 )

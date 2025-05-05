@@ -8,7 +8,6 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"errors"
-	"faroe/argon2id"
 	"fmt"
 	"io"
 	"log"
@@ -18,6 +17,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/gocs/faroe/src/argon2id"
 
 	"github.com/julienschmidt/httprouter"
 )
