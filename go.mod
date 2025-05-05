@@ -1,4 +1,4 @@
-module faroe
+module github.com/gocs/faroe // github.com/faroedev/faroe
 
 go 1.22.1
 

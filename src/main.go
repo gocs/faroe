@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"encoding/base32"
 	"errors"
-	"faroe/ratelimit"
+	"github.com/gocs/faroe/src/ratelimit"
 	"flag"
 	"fmt"
 	"log"

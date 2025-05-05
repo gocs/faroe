@@ -6,7 +6,7 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"errors"
-	"faroe/otp"
+	"github.com/gocs/faroe/src/otp"
 	"fmt"
 	"io"
 	"log"

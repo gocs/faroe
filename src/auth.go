@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"errors"
-	"faroe/argon2id"
+	"github.com/gocs/faroe/src/argon2id"
 	"io"
 	"log"
 	"net/http"
