@@ -2,9 +2,10 @@ package main
 
 import (
 	"database/sql"
-	"github.com/gocs/faroe/src/ratelimit"
 	"testing"
 	"time"
+
+	"github.com/gocs/faroe/ratelimit"
 )
 
 func initializeTestDB(t *testing.T) *sql.DB {

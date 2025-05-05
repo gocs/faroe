@@ -3,11 +3,11 @@ package main
 import (
 	"encoding/json"
 	"errors"
-	"github.com/gocs/faroe/src/argon2id"
 	"io"
 	"log"
 	"net/http"
 
+	"github.com/gocs/faroe/argon2id"
 	"github.com/julienschmidt/httprouter"
 )
 
