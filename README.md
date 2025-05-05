@@ -58,10 +58,10 @@ Licensed under the MIT license.
 ## Install
 
 ```
-go get -tool github.com/gocs/faroe/src
+go get -tool github.com/gocs/faroe
 ```
 
-usage: `go tool src`
+usage: `go tool faroe`
 
 ## Features
 
